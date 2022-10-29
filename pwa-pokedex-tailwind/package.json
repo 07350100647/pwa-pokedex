@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "npx nullstack start",
-    "build": "npx nullstack build"
+    "build": "npx nullstack build --mode=ssg --output=dist"
   }
+ 
 }
