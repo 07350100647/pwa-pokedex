@@ -20,7 +20,7 @@ class Home extends Nullstack {
     )
   }
 
-  renderActionLink({ children, href }) {
+  /*   renderActionLink({ children, href }) {
     const link = href + '?ref=create-nullstack-app'
     return (
       <a
@@ -32,7 +32,7 @@ class Home extends Nullstack {
         {children}
       </a>
     )
-  }
+  } */
 
   render() {
     return (
