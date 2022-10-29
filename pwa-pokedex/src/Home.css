@@ -1,3 +1,123 @@
+*{
+  font-family: Poppins;
+  
+}
+
+body{
+  width: 360px;
+  height: 640px;
+  padding: 24px, 16px, 0px, 16px;
+  gap: 8px;
+  border: 1px;
+  background: #F7F7F7;
+  border-radius: 12px;
+  
+}
+#search{
+
+box-sizing: border-box;
+padding: 4px, 8px, 4px, 8px;
+gap: 16px;
+width: 328px;
+height: 24px;
+top: 64px;
+left: 16px;
+
+
+/* White */
+
+background: #FFFFFF;
+/* Light Gray */
+
+border: 1px solid #E0E0E0;
+border-radius: 8px;
+
+
+  
+}
+
+icon {
+  
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 360px;
+  height: 640px;
+  border-radius: 8px;
+  margin: 0 8px 8px;    
+  box-sizing: border-box;
+  border: 1px solid;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #74CB48
+  
+  
+  
+}
+
+
+.head {
+  width: 0px;
+  height: 0px;
+  width: 0px;
+        
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;    
+  position: relative;
+  position:fixed;
+  margin-left: 4.5%;
+
+}
+#imageRetorno{
+  width: 17.5px;
+  height: 17.5px;
+  margin-top: 31.35px;
+  margin-left: 27.25px;
+}
+order{
+  
+  font-size: 24px;
+  line-height: 12px;       
+  margin-top: 32.35px;
+  margin-left: 150px;
+  color: white;
+}
+name{
+  font-size: 24px;   
+  line-height: 32px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20.35px;    
+  margin-left: 60px;
+  
+  
+  
+}
+
+
+.about {
+  background: #F7F7F7;
+  border-radius: 8px;
+  
+  
+  box-sizing: border-box;
+  border: 1px solid;
+  margin: 0px 120px 8px;  
+  position: absolute;
+  width: 352px;
+  height: 412px;
+  margin-top: 230px;    
+  margin-left: 9px;
+}
+
+.pokemon{
+  text-align: center;
+}
 section {
   width: 100%;
   max-width: 48rem;
